@@ -5,7 +5,7 @@ Dataset used for training was obtained from kaggle: [link](https://www.kaggle.co
 
 #### Information about project
 - Two classification classes: Pnenumonia and Healthy (Pneumonia class can be extended to include bacterial and virus pneumonia)
-- Average accuracy: 0.84
+- Average accuracy: 84%
 - Training loop utilizes tensorboard for better analysis
 
 #### Built with
@@ -13,3 +13,7 @@ Dataset used for training was obtained from kaggle: [link](https://www.kaggle.co
 - matplotlib
 - tensorboard
 - sklearn (for metrics)
+
+#### ResNet newtork
+
+A pre-trained ResNet18 model was fine-tuned on a chest X-ray dataset, resulting in a much higher accuracy compared to previous architecture. The model achieves 96.31% accuracy on the test dataset.
